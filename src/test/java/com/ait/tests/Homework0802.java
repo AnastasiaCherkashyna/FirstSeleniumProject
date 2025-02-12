@@ -61,6 +61,23 @@ public class Homework0802 {
             System.out.println(idElementThree.getText());
         }
 
+        @Test
+        public void findByCssSelector(){
+
+        driver.findElement(By.cssSelector("[href*='/apparel']"));
+        driver.findElement(By.cssSelector(".header-links-wrapper>div"));
+        driver.findElement(By.cssSelector(".footer-menu-wrapper>div:nth-child(2)"));
+
+        driver.findElement(By.cssSelector("#bar-notification>span"));
+        driver.findElement(By.cssSelector(".column>h3"));
+        driver.findElement(By.cssSelector(".footer-poweredby>a"));
+
+        driver.findElement(By.cssSelector(".top-menu>li:nth-child(4)"));
+        driver.findElement(By.cssSelector("#mob-menu-button>a"));
+        driver.findElement(By.cssSelector(".mob-top-menu>li:nth-child(4)"));
+
+        }
+
         @AfterMethod
         public void tearDown(){
         driver.quit();
