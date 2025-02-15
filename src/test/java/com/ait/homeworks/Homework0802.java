@@ -1,4 +1,4 @@
-package com.ait.tests;
+package com.ait.homeworks;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -77,6 +77,26 @@ public class Homework0802 {
         driver.findElement(By.cssSelector(".mob-top-menu>li:nth-child(4)"));
 
         }
+
+        @Test
+        public void findElementByXpath(){
+
+            driver.findElement(By.xpath("//*[contains(@href, '/apparel')]"));
+            driver.findElement(By.xpath("//h3"));
+            driver.findElement(By.xpath("//div[@class='header-links-wrapper']/div"));
+            driver.findElement(By.xpath("//div[@class='footer-menu-wrapper']/div[2]"));
+
+            driver.findElement(By.xpath("//div[@id='bar-notification']/span"));
+            driver.findElement(By.xpath("//*[contains(.,'Information')]"));
+            driver.findElement(By.xpath("//div[@class='footer-poweredby']/a"));
+
+            driver.findElement(By.xpath("//ul[@class='top-menu']//li[2]"));
+            driver.findElement(By.xpath("//*[text()='Sitemap']"));
+            driver.findElement(By.xpath("//ul[@class='mob-top-menu']//li[4]"));
+
+        }
+
+
 
         @AfterMethod
         public void tearDown(){
