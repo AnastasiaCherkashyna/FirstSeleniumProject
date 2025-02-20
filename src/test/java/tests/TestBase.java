@@ -24,8 +24,8 @@ public class TestBase {
         driver.quit();
     }
 
-    public boolean isElementPresens(){
-        driver.findElement(By.xpath("//div[@class='header-links']//a[@href='/customer/info']"));
+    public boolean isElementPresens(By locator){
+        driver.findElement(locator);
         return true;
     }
 
