@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ait.demowebshop.test.AddItemToCartTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-09T17:30:29" hostname="MacBook-Air-Anastasia.local" time="1.202">
+  <properties/>
+  <testcase name="addItemToCart" classname="com.ait.demowebshop.test.AddItemToCartTests" time="1.202"/>
+  <system-out><![CDATA[18:30:26.816 [Test worker] INFO  com.ait.demowebshop.test.TestBase -- Start TestaddItemToCartwith data: []
+18:30:26.820 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: .ico-login
+18:30:26.899 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: .ico-loginLog in
+18:30:27.774 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: #Email
+18:30:27.814 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: #Email
+18:30:27.937 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: #Email
+18:30:27.964 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: #Email
+18:30:28.005 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: #Email
+18:30:28.035 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: #Email
+18:30:28.135 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: #Password
+18:30:28.177 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: #Password
+18:30:28.268 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: #Password
+18:30:28.299 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: #Password
+18:30:28.345 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: #Password
+18:30:28.369 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: #Password
+18:30:28.420 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.xpath: //*[@value='Log in']
+18:30:28.457 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.xpath: //*[@value='Log in']
+18:30:29.864 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.xpath: //div[@data-productid='31']//input[@type='button']
+18:30:29.915 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.xpath: //div[@data-productid='31']//input[@type='button']
+18:30:30.028 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.xpath: //span[.='Shopping cart']
+18:30:30.081 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.xpath: //span[.='Shopping cart']Shopping cart
+18:30:30.983 [Test worker] INFO  com.webshop.utils.MyListener -- After find elements ->By.cssSelector: .product-name
+18:30:31.046 [Test worker] INFO  com.webshop.utils.MyListener -- After find elements ->By.cssSelector: .product-name1
+18:30:31.067 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: [name='removefromcart']
+18:30:31.102 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: [name='removefromcart']
+18:30:31.215 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: [name='updatecart']
+18:30:31.261 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: [name='updatecart']
+18:30:31.904 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: .ico-logout
+18:30:31.942 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: .ico-logoutLog out
+18:30:33.631 [Test worker] INFO  com.ait.demowebshop.test.TestBase -- PASSED:addItemToCart
+18:30:33.632 [Test worker] INFO  com.ait.demowebshop.test.TestBase -- Stop Test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

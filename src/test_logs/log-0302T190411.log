@@ -1,0 +1,6 @@
+19:04:12.893 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/anastasiacherkashyna/Library/Caches/JetBrains/IdeaIC2023.3/temp-testng-customsuite.xml
+
+19:04:24.303 [main] INFO  com.ait.demowebshop.test.TestBase -- Start TestexistedUserLogin
+19:04:37.684 [main] INFO  com.ait.demowebshop.test.TestBase -- FAILED:existedUserLoginscreenshot/Users/anastasiacherkashyna/QAProjects/FirstSeleniumProject/screenshots/screen-1740938677647.png
+19:04:37.685 [main] INFO  com.ait.demowebshop.test.TestBase -- Stop Test

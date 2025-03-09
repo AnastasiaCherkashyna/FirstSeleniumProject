@@ -1,0 +1,34 @@
+19:46:36.722 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/anastasiacherkashyna/Library/Caches/JetBrains/IdeaIC2023.3/temp-testng-customsuite.xml
+
+19:46:48.108 [main] INFO  com.ait.demowebshop.test.TestBase -- Start TestexistedUserLogin
+19:46:48.115 [main] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: .ico-login
+19:46:48.252 [main] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: .ico-loginLog in
+19:46:49.037 [main] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: #Email
+19:46:49.096 [main] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: #Email
+19:46:49.187 [main] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: #Email
+19:46:49.251 [main] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: #Email
+19:46:49.292 [main] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: #Email
+19:46:49.321 [main] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: #Email
+19:46:49.546 [main] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: #Password
+19:46:49.582 [main] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: #Password
+19:46:49.664 [main] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: #Password
+19:46:49.690 [main] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: #Password
+19:46:49.767 [main] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: #Password
+19:46:49.795 [main] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: #Password
+19:46:49.849 [main] INFO  com.webshop.utils.MyListener -- Before find element ->By.xpath: //*[@value='Log in']
+19:46:49.883 [main] INFO  com.webshop.utils.MyListener -- After find element ->By.xpath: //*[@value='Log in']
+19:46:50.667 [main] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: .ico-logout
+19:47:00.746 [main] INFO  com.webshop.utils.MyListener -- The test has a problem
+19:47:00.748 [main] INFO  com.webshop.utils.MyListener -- Method -> findElement
+19:47:00.752 [main] INFO  com.webshop.utils.MyListener -- Target Exception org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".ico-logout"}
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.3.1', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b1ad413174410849a357ae0ce1ce693, findElement {value=.ico-logout, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: /var/folders/dd/g104_g45285...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55814}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55814/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b1ad413174410849a357ae0ce1ce693
+19:47:02.248 [main] ERROR com.ait.demowebshop.test.TestBase -- FAILED:existedUserLoginscreenshot/Users/anastasiacherkashyna/QAProjects/FirstSeleniumProject/screenshots/screen-1740941222176.png
+19:47:02.248 [main] INFO  com.ait.demowebshop.test.TestBase -- Stop Test

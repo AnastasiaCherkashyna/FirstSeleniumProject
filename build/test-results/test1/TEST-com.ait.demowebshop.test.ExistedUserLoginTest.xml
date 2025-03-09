@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ait.demowebshop.test.ExistedUserLoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-09T17:30:33" hostname="MacBook-Air-Anastasia.local" time="2.99">
+  <properties/>
+  <testcase name="existedUserLogin" classname="com.ait.demowebshop.test.ExistedUserLoginTest" time="2.99"/>
+  <system-out><![CDATA[18:30:33.637 [Test worker] INFO  com.ait.demowebshop.test.TestBase -- Start TestexistedUserLoginwith data: []
+18:30:33.639 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: .ico-login
+18:30:33.689 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: .ico-loginLog in
+18:30:34.428 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: #Email
+18:30:34.471 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: #Email
+18:30:34.567 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: #Email
+18:30:34.597 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: #Email
+18:30:34.636 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: #Email
+18:30:34.664 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: #Email
+18:30:34.745 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: #Password
+18:30:34.771 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: #Password
+18:30:34.852 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: #Password
+18:30:34.877 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: #Password
+18:30:34.908 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: #Password
+18:30:34.933 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: #Password
+18:30:34.980 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.xpath: //*[@value='Log in']
+18:30:35.006 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.xpath: //*[@value='Log in']
+18:30:36.595 [Test worker] INFO  com.webshop.utils.MyListener -- Before find element ->By.cssSelector: .ico-logout
+18:30:36.628 [Test worker] INFO  com.webshop.utils.MyListener -- After find element ->By.cssSelector: .ico-logoutLog out
+18:30:36.630 [Test worker] INFO  com.ait.demowebshop.test.TestBase -- PASSED:existedUserLogin
+18:30:36.632 [Test worker] INFO  com.ait.demowebshop.test.TestBase -- Stop Test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
