@@ -1,5 +1,6 @@
 package com.webshop.framework;
 
+import com.github.javafaker.Faker;
 import com.webshop.framework.BaseHelper;
 import com.webshop.models.NewUser;
 import com.webshop.models.User;
@@ -11,15 +12,16 @@ public class UserHepler extends BaseHelper {
         super(driver);
     }
 
-    public boolean isLogOutLinkPresent() {
-        return isElementPresens(By.cssSelector(".ico-logout"));
-    }
+
 
     public void ckickOnRegistrationButton() {
         click(By.cssSelector("[name='register-button']"));
     }
 
     public void fillRegistrationForm(NewUser newUser) {
+
+
+
         type(By.xpath("//*[@id='FirstName']"), newUser.getFirstName());
         //enter lastname
         type(By.xpath("//*[@id='LastName']"), newUser.getLastName());
@@ -46,5 +48,13 @@ public class UserHepler extends BaseHelper {
 
     public void clickOnLoginLink() {
         click(By.cssSelector(".ico-login"));
+    }
+
+    public boolean isLogOutLinkPresent() {
+        return isElementPresens(By.cssSelector(".ico-logout"));
+    }
+
+    public void clickOnLogOutLink() {
+        click(By.cssSelector(".ico-logout"));
     }
 }

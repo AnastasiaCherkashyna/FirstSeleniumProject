@@ -9,8 +9,9 @@ import org.openqa.selenium.WebDriver;
 import java.io.File;
 
 public class BaseHelper {
-    WebDriver driver;
 
+
+    WebDriver driver;
     public BaseHelper(WebDriver driver) {
         this.driver = driver;
     }

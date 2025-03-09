@@ -1,5 +1,6 @@
 package com.ait.demowebshop.test;
 
+import com.github.javafaker.Faker;
 import com.webshop.framework.ApplicationManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,13 +15,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import java.lang.reflect.Method;
+import java.util.Arrays;
 
 public class TestBase {
 
     Logger logger = LoggerFactory.getLogger(TestBase.class);
     @BeforeMethod
-    public void startTest(Method method){
-        logger.info("Start Test" + method.getName());
+    public void startTest(Method method, Object[] p){
+        logger.info("Start Test" + method.getName() + "with data: " + Arrays.asList(p));
     }
 
     @AfterMethod
@@ -32,6 +34,7 @@ public class TestBase {
         }
         logger.info("Stop Test");
     }
+
 
     protected static ApplicationManager app = new ApplicationManager(System.getProperty("browser", Browser.CHROME.browserName()));
     WebDriver driver;
@@ -46,4 +49,9 @@ public class TestBase {
     }
 
 
+    public String getRandomEmail() {
+        Faker faker = new Faker();
+        String randomEmail = faker.internet().emailAddress();
+        return randomEmail;
+    }
 }

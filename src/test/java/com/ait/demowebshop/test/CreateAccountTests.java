@@ -3,27 +3,26 @@ package com.ait.demowebshop.test;
 import com.webshop.models.NewUser;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 
 public class CreateAccountTests extends TestBase {
 
-   /* @Test
+    @Test
     public void newUserRegistration(){
+        String randomEmail = getRandomEmail();
+
         app.getUser().clickOnRegistrationLink();
         app.getUser().fillRegistrationForm(new NewUser().setFirstName("Milok13")
                 .setLastName("Tong")
-                .setEmail(UserData.EMAIL)
-                .setPassword(UserData.PASSWORD)
-                .setConfirmPassword(UserData.PASSWORD));
+                .setEmail(getRandomEmail())
+                .setPassword("12345678")
+                .setConfirmPassword("12345678"));
         app.getUser().ckickOnRegistrationButton();
         app.getUser().pause(1000);
         Assert.assertTrue(app.getUser().isLogOutLinkPresent());
-    } */
+    }
+
+    /*
 
     @DataProvider
     public Iterator<Object[]> addNewRegistration(){
@@ -51,6 +50,8 @@ public class CreateAccountTests extends TestBase {
         app.getUser().pause(1000);
         Assert.assertTrue(app.getUser().isLogOutLinkPresent());
     }
+
+      */
 
     @AfterMethod
     public void postCondition(){
