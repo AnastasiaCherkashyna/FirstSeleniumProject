@@ -1,5 +1,6 @@
 package com.ait.demowebshop.test;
 
+import com.webshop.data.UserData;
 import com.webshop.models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -11,7 +12,7 @@ public class AddItemToCartTests extends TestBase {
    @BeforeMethod
    public void precondition(){
        app.getUser().clickOnLoginLink();
-       app.getUser().fillLoginForm(new User().setEmail("Mil@gm.com").setPassword("1234567"));
+       app.getUser().fillLoginForm(new User().setEmail(UserData.EMAIL).setPassword(UserData.PASSWORD));
        app.getUser().clickOnLoginButton();
    }
 
@@ -25,6 +26,7 @@ public class AddItemToCartTests extends TestBase {
     @AfterMethod
     public void postCondition(){
         app.getItem().deleteItemFromShoppingCart();
+        app.getUser().clickOnLogOutLink();
     }
 }
 
