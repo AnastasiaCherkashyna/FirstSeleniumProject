@@ -19,7 +19,7 @@ public class AddItemToCartTests extends TestBase {
     @Test
     public void addItemToCart(){
         app.getItem().clickOnItemButton();
-        app.getUser().pause(1000);
+        app.getUser().pause(2000);
         app.getItem().clickOnShoppingCartLink();
         Assert.assertTrue(app.getItem().isItemPresentInShoppingCart());
     }
