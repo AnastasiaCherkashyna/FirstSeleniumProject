@@ -9,12 +9,12 @@ public class CreateAccountTests extends TestBase {
 
     @Test
     public void newUserRegistration(){
-        String randomEmail = getRandomEmail();
+
 
         app.getUser().clickOnRegistrationLink();
         app.getUser().fillRegistrationForm(new NewUser().setFirstName("Milok13")
                 .setLastName("Tong")
-                .setEmail(getRandomEmail())
+                .setEmail(app.getUser().getRandomEmail())
                 .setPassword("12345678")
                 .setConfirmPassword("12345678"));
         app.getUser().ckickOnRegistrationButton();

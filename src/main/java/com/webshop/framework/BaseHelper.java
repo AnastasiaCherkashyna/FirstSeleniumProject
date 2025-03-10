@@ -1,5 +1,6 @@
 package com.webshop.framework;
 
+import com.github.javafaker.Faker;
 import com.google.common.io.Files;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -27,6 +28,12 @@ public class BaseHelper {
             driver.findElement(locator).clear();
             driver.findElement(locator).sendKeys(text);
         }
+    }
+
+    public String getRandomEmail() {
+        Faker faker = new Faker();
+        String randomEmail = faker.internet().emailAddress();
+        return randomEmail;
     }
 
     public void pause(int millis) {

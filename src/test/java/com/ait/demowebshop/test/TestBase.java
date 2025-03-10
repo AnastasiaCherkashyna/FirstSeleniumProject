@@ -49,9 +49,5 @@ public class TestBase {
     }
 
 
-    public String getRandomEmail() {
-        Faker faker = new Faker();
-        String randomEmail = faker.internet().emailAddress();
-        return randomEmail;
-    }
+
 }
